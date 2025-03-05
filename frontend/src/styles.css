@@ -1,0 +1,105 @@
+/* Global Styles */
+
+.app-content {
+    min-height: calc(100vh - 120px); /* Adjust based on Navbar and Footer height */
+    padding: 20px;
+    background: #f9fafb;
+}
+
+body {
+    background: linear-gradient(to right, #f3f4f7, #ffffff);
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease;
+}
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #f3f4f7 !important;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+footer a {
+    color: #f3f4f7;
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: #ccc;
+}
+
+/* Forms */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+}
+button {
+    background: #007bff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background: #0056b3;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Results & Cards */
+.result-card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.result-card h4 {
+    color: #333;
+}
+.result-card p {
+    color: #555;
+}
+
+/* Charts */
+.chart-container {
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    form {
+        padding: 15px;
+    }
+}
